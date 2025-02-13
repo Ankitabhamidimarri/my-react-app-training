@@ -1,0 +1,148 @@
+/* 🌸 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #FFC0CB, #FF69B4);
+  color: #4A235A;
+}
+
+/* 🌸 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: 500px;
+  padding: 20px 40px;
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+  background:rgba(255, 105, 180, 0.9);
+  /* z-index: 1000; */
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4A235A;
+}
+
+/* 🌸 Top-Right Links */
+.top-right-links {
+  display: flex;
+  gap: 20px;
+}
+
+.top-right-links a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.top-right-links a:hover {
+  color: #ffb6c1;
+}
+
+/* ✨ Main Sections */
+.section {
+  padding: 8rem 2rem 4rem;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+/* 🎀 Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10rem 4rem 5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #FF69B4, #FFC0CB);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+/* 🎀 Buttons */
+.btn {
+  background: #ff69b4;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+}
+
+.btn:hover {
+  background: #ff1493;
+  transform: translateY(-3px);
+}
+
+/* 💖 Projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(255, 105, 180, 0.4);
+  text-align: center;
+  transition: 0.3s;
+  color: #ff1493;
+  font-size: 1.2rem;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 🌐 Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.input-field {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(255, 105, 180, 0.4);
+  font-size: 1rem;
+}
+
+/* 🎀 Footer */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(255, 105, 180, 0.9);
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
